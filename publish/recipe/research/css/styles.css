@@ -1,0 +1,51 @@
+html {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-family: 'Sail', cursive;
+    font-size: 40pt;
+    text-align: center;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13pt;
+}
+
+cap {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13pt;
+}
+
+
+.box{
+    /* width: fit-content; */
+    height: fit-content;
+    background: rgb(255, 229, 206);
+    margin: -5px 10px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    margin: auto;
+    max-width: 400px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20pt;
+    width: 33%;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-top: 20pt;
+    margin-left: 10px;
+}
+

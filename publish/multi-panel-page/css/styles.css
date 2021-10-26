@@ -1,0 +1,146 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 80px;
+    text-align: center;
+}
+
+.content {
+    /* background-color: rgba(0, 0, 255, .3); */
+    width: 960px;
+    margin: auto;
+}
+
+#section1 {
+    background-color: rgb(255, 240, 221);
+    padding-bottom: 10px;
+}
+
+header {
+    background-color: white;
+    background-image: url(https://cmoa-collection-images.s3.amazonaws.com/thing/224614/sizes/140908-1680.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position:center;
+}
+
+header .content {
+    padding: 152px 0px 148px 0px;
+}
+
+header h1 {
+    font-size: 80px;
+
+}
+
+header h2 {
+    font-size: 30px;
+    margin: -3px 0px 0px 0px;
+}
+
+section .content {
+    padding: 10px 0px 0px 0px;
+}
+
+section h1 { 
+    font-size: 40px;
+    margin-top: 65px;
+    margin-bottom: 33px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.arch {
+    width: 400px;
+    height: 300px;
+    float: right;
+    padding: 0px 0px 40px 40px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.grid li {
+    display: block;
+}
+
+#section2 {
+    background-color: rgb(226, 247, 255);
+    padding-bottom: 10px;
+}
+
+#section2 .content {
+    margin: auto;
+    width: 960px;
+}
+
+.using-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px;
+}
+
+.image-text {
+    margin-left: -28px;
+    margin-top: -17px;
+    width: 220px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.section2-title {
+    margin-top: 69px;
+}
+
+.photo-title {
+    margin-bottom: -11px;
+    margin-top: 16px;
+}
+
+.grid img {
+    margin-bottom: 24px;
+}
+
+
+.section3-title {
+    font-size: 40px;
+    margin-top: 79px;
+    margin-bottom: 33px;
+}
+
+.section3-text {
+    text-align: center;
+    width: 710px;
+    margin: auto;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+
+
+footer {
+    display: block;
+}
+
+#section3 {
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 132px;
+}
+

@@ -1,0 +1,34 @@
+h1 {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h2 {
+    font-style: italic;
+}
+
+body {
+    background-color: #ceff85;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p1 {
+    color: #003b00;
+}
+
+p2 {
+    color: #649243;
+}
+
+p3 {
+    color: rgb(73, 92, 73);
+}
+
+p4 {
+    color: black;
+}
+
+p5 {
+    color: green;
+}
+
