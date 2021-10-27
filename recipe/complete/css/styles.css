@@ -1,0 +1,147 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ingredients li {
+    font-size: 16pt;
+    width: 90%;
+}
+
+h1 {
+    font-family: 'Sail', cursive;
+    font-size: 60pt;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25pt;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.caption {
+    text-align: center;
+    float: none;
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+#introduction .section-header {
+    margin: auto;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+.ingredient-block {
+    background-color: rgb(255, 175, 175);
+    width: 450px;
+    padding-bottom: 10px;
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.overview {
+    background-color: rgb(231, 207, 207);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.numbers li {
+    list-style: none;
+    float: left;
+    margin-right: 70px;
+    text-size-adjust: 16pt;
+}
+
+
+
+.material-block {
+    background-color: rgb(255, 175, 175);
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.materials li {
+    font-size: 14pt;
+    margin-left: 10px;
+    width: 95%;
+}
+
+.chocolate-mousse-spoon {
+    float: right;
+    width: 100%;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.warning {
+    font-size: 8pt;
+    width: 90%;
+}
+
+#introduction {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+#introduction div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.started {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40pt;
+}
+
+.steps p {
+    width: 90%;
+    max-width: 1000px;
+    float: none;
+    margin: auto;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.steps img {
+    width: 80%;
+    float: left;
+    height: 350px;
+    object-fit: cover;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-bottom: 150px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.final-chocolate-mousse {
+    width: 100%;
+}
+
+.step1 {
+    margin-top: 100px;
+}
+
+.enjoy {
+    font-size: 60pt;
+}
