@@ -1,0 +1,659 @@
+main {
+    margin: 35px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+#tesla {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    font-family: 'Lexend Zetta', sans-serif;
+    text-decoration: none;
+    background-color: rgb(223, 2, 2);
+    color: white;
+    box-sizing: border-box;
+    border-radius: none;
+    margin: auto;
+    margin-top: 90px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#tesla:hover {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    background-color: rgb(209, 209, 209);
+    box-shadow: 0px 0px 20px 0px rgba(223, 2, 2, 1);
+    color:  rgb(223, 2, 2);
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+#coca-cola{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 13pt;
+    text-decoration: none;
+    background-color: rgb(245, 17, 17);
+    color: white;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 35px;
+}
+
+#coca-cola:hover {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15pt;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(245, 17, 17);
+    color: rgb(245, 17, 17);
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 35px;
+    transition: all 0.5s;
+}
+
+#harley-davidson {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16pt;
+    text-decoration: none;
+    background-color: rgb(245, 120, 17);
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding-top: 12px;
+}
+
+#harley-davidson:hover {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22pt;
+    font-style: italic;
+    text-decoration: none;
+    background-color: rgb(245, 120, 17);
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 7px;
+    transition: all 0.5s;
+}
+
+#the-new-yorker {
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    font-family: 'Belleza', sans-serif;    font-size: 16pt;
+    text-decoration: none;
+    line-height: 15pt;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 12px;
+}
+
+.THEny {
+    font-size: 12pt;
+}
+
+#the-new-yorker:hover {
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    font-family: 'Belleza', sans-serif;    
+    font-size: 16pt;
+    text-decoration: none;
+    line-height: 15pt;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 12px;
+    text-shadow: 1px 3px 3px #666;
+    transition: all 0.2s;
+}
+
+#missouri-botanical-garden {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;   
+    font-size: 16pt;
+    text-decoration: none;
+    line-height: auto;
+    background-color: rgb(113, 180, 113);
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 12px;
+    border-radius: 25px;
+}
+
+#missouri-botanical-garden:hover {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;   
+    font-size: 16pt;
+    text-decoration: none;
+    line-height: auto;
+    background-color: rgb(113, 180, 113);
+    color: rgb(54, 87, 54);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 12px;
+    transition: all 0.3s;
+}
+
+#the-color-run {
+    display: inline-block;
+    width: 240px;
+    height: 65px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: bold;
+    font-size: 16pt;
+    text-decoration: none;
+    line-height: auto;
+    background-color: rgb(211, 211, 211);
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding-top: 0px;
+    border-radius: 25px;
+}
+
+.color-red:hover {
+    color: red;
+}
+
+.color-orange:hover {
+    color: orange;
+}
+
+.color-yellow:hover {
+    color: yellow;
+}
+
+.color-green:hover {
+    color: green;
+}
+
+.color-blue:hover {
+    color: blue;
+}
+
+.color-purple:hover {
+    color: purple;
+}
+
+.color-pink:hover {
+    color: pink;
+}
+
+#npr {
+    display: inline-block;
+    width: 80px;
+    height: 65px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    font-size: 16pt;
+    text-decoration: none;
+    line-height: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding-top: 0px;
+    border-radius: none;
+}
+
+#npr:hover {
+    text-transform: capitalize;
+    background-color: white;
+    transition: all 0.8s;
+    font-size: 15pt;
+    padding-top: 4px;
+}
+
+#npr:hover .npr-n {
+    color: #F15B1C;
+    transition: all 0.4s;
+}
+
+#npr:hover .npr-p {
+    color: black;
+    transition: all 0.8s;
+}
+
+#npr:hover .npr-r {
+    color: #4C85C5;
+    transition: all 1s;
+}
+
+#instagram {
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    font-family: 'Cookie', cursive;
+    font-size: 30pt;
+    text-decoration: none;
+    line-height: 15pt;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding-top: 18px;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(45deg,  #ffda60 0%,#f17432 31%,#ea3407 57%,#904dcc 100%);
+}
+
+#instagram:hover {
+    color: white;
+    font-style: bold;
+}
+
+.nerf-photo {
+    margin-top: 70px;
+    width: 130px;
+    border-radius: 50px;
+    padding: 22px 40px 22px 40px;
+    box-shadow: 0px 0px 20px 0px #fcdf02; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.nerf-photo:hover {
+    width: 160px;
+    border-radius: 50px;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 0px 0px 20px 0px #fc0202; 
+    transition: all 0.4s;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.fa-apple {
+    margin-top: 50px;
+    width: 80px;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fa-apple:hover {
+    color: white;
+    background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%,rgb(226, 226, 226) 54%,rgba(165,162,162,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    border-radius: 100px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-shadow: 1px 3px 3px #666;
+    transition: all 0.4s;
+}
+
+#ibm {
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40pt;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(0, 29, 108);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 12px;
+}
+
+@keyframes move {
+    0% {transform: translate(-10px);}
+    50% {transform: translate(10px);}
+    100% {transform: translate(-10px);}
+}
+
+#ibm:hover {
+    animation: move 2.0s;
+    animation-iteration-count: infinite;
+    font-weight: lighter;
+    transition: font-weight 1.0s;
+}
+
+#ideo {
+    /* display: inline-block; */
+    width: 20px;
+    height: 200px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40pt;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(221, 136, 39);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 12px;
+}
+
+#ideo div {
+    float:inline-start;
+}
+
+.ideo-id {
+    color: #FE5C36;
+    margin-bottom: -75px;
+}
+
+.ideo-eo {
+    color: #54AFBC;
+    margin-top: 0px;
+}
+
+#ideo:hover .ideo-id {
+    color: #54AFBC;
+}
+
+#ideo:hover .ideo-eo {
+    color: #FE5C36;
+}
+
+#bissingers {
+    display: inline-block;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 35pt;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(221, 165, 101);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 12px;
+}
+
+#bissingers:hover {
+    text-shadow: 0px 0px 18px rgba(255, 206, 125, 1);
+    animation: all 0.5s;
+}
+
+#fitbit {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 16pt;
+    text-decoration: none;
+    line-height: auto;
+    background-color: #00B0B9;
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding-top: 12px;
+    border-radius: 25px;
+}
+
+#fitbit:hover {
+    padding-top: 8px;
+    border: 3pt solid #00B0B9;
+    background-color: white;
+    color: #00B0B9;
+    transition: all 0.5s;
+}
+
+#facebook {
+    display: inline-block;
+    width: 60px;
+    height: 90px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 60pt;
+    text-decoration: none;
+    line-height: auto;
+    background-color: #0066b9;
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+
+#facebook:hover {
+    background-color: white;
+    color: #0066b9;
+    text-shadow: 22px 13px 5px rgba(0, 49, 100, 1);
+    transition: text-shadow 0.3s;
+}
+
+#old-navy {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    font-size: 16pt;
+    text-decoration: none;
+    line-height: auto;
+    background-color: rgb(0, 7, 104);
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 57px;
+    border-radius: 100px;
+    transition: all 0.3s;
+}
+
+
+#old-navy:hover {
+    transform: rotate(360deg);
+}
+
+#army {
+    display: inline-block;
+    width: 200px;
+    height: 90px;
+    font-family: 'Saira Stencil One', cursive;    
+    font-size: 30pt;
+    text-decoration: none;
+    line-height: auto;
+    background-color: white;
+    color: rgb(5, 44, 7);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+
+#army:hover {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1pt rgb(5, 44, 7);
+}
+
+#michael-kors {
+    display: inline-block;
+    width: 300px;
+    height: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    font-weight:600;
+    font-size: 50pt;
+    text-decoration: none;
+    line-height: auto;
+    background-color: white;
+    color: rgb(99, 99, 99);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+
+.M {
+    margin-bottom: 0px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-right: -16.5px;
+}
+
+.K {
+    margin-top: 80px;
+    float: left;
+    margin-left: 0px;
+}
+
+#michael-kors:hover .M {
+    transform: translate(0px, -26px);
+    transition: all 1.0s;
+}
+
+#michael-kors:hover .K {
+    transform: translate(0px, 26px);
+    transition: all 1.0s;
+}
+
+#moo {
+    display: inline-block;
+    width: 100px;
+    height: 90px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:500;
+    font-size: 30pt;
+    text-decoration: none;
+    line-height: auto;
+    color: rgb(26, 124, 100);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    margin-left: -10px;
+}
+
+.fa-droplet {
+    height: 160px;
+    display: inline-block;
+    /* color: white; */
+    transform: translate(-7px, -200px);
+}
+
+#moo:hover .fa-droplet {
+    color: rgb(26, 124, 100);
+    transform: translate(0px, -70px);
+    height: 60px;
+    transition: all 1.0s;    
+}
+
+.moo-text {
+    transform: translate(0px, -40px);
+    color: rgb(26, 124, 100);
+    transition: all 1.0s;
+}
+
+#moo:hover .moo-text {
+    color: rgb(26, 124, 100);
+    z-index: -1;
+    position: relative;
+    transition: all 1.0s;
+}
+
+#cartoon-network {
+    display: inline-block;
+    width: 140px;
+    height: 120px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 60pt;
+    text-decoration: none;
+    line-height: auto;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+#cartoon-network:hover {
+    background: black;
+    color: white;
+    -webkit-text-stroke: 1pt rgb(0, 0, 0);
+    box-shadow: 0px 0px 30px 0px rgba(255, 146, 75, 1);
+    transition: all 0.5s;
+}
