@@ -1,0 +1,20 @@
+.desktopA1 {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.desktopA2 {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.phoneA1 {
+    width: 30%;
+    margin-bottom: 100px;
+    float: left;
+}
+
+.phoneA2 {
+    width: 30%;
+    float: right;
+}
